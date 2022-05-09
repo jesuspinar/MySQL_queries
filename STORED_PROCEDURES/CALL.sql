@@ -1,0 +1,1 @@
+CALL sakila.get_customer();

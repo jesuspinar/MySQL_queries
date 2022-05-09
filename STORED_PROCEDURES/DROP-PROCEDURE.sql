@@ -1,0 +1,1 @@
+DROP PROCEDURE if exists get_customer

@@ -1,0 +1,4 @@
+SELECT
+ COUNT(customer_id) DUPLICADOS,
+ COUNT(DISTINCT customer_id) UNICOS
+FROM payment
