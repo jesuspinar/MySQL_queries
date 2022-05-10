@@ -1,3 +1,4 @@
+USE sakila;
 SELECT * FROM film
 WHERE description REGEXP '^A' # PARA BUSCAR Texto POR COMIENZO
 #WHERE description REGEXP 'A$' # PARA BUSCAR Texto POR FIN
