@@ -1,0 +1,1 @@
+SHOW events LIKE 'yearly%';

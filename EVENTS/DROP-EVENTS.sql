@@ -1,0 +1,1 @@
+DROP event if exists yearly_delete_customer_logs;
