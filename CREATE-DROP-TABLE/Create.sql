@@ -1,5 +1,0 @@
-CREATE INDEX -- index_NAME
-ON employees(desciption);
-
-CREATE UNIQUE INDEX -- index_NAME #RELACION DE 1 A 1 SI ES CLAVE PRINCIPAL NO PERO SI ES CAMPO SEC. PRINCIPAL
-ON employees(desciption);
