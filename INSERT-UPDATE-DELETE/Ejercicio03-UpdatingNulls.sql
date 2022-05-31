@@ -1,4 +1,3 @@
 -- ACTUALIZAR TODO LOS CUSTOMER A INACTIVO DONDE PARENT ID NO SEA NULL	-- ACTIVE = 0;
-UPDATE customer 
-SET active = 0
+UPDATE customer SET active = 0
 WHERE  customer.parent_id is NOT NULL;

@@ -1,5 +1,5 @@
 -- INDICES 
--- mejorar el rendimiento de las consultas 
+-- mejoran el rendimiento de las consultas 
 -- se guardan partes comunes de busquedad de base de datos
 -- en la memoria, a modo de arboles binarios
 
