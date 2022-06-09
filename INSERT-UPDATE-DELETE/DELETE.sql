@@ -1,2 +1,1 @@
-DELETE FROM country_archived 
-WHERE country_id = 2       
+DELETE FROM country_archived WHERE country_id = 2 -- > elimina el registro de la tabla   

@@ -2,7 +2,7 @@
 -- reduce el impacto de cambios en las base de datos 
 -- puedes modificar la view en vez de cambiar la base
 
-CREATE VIEW payment_by_customer AS 
+CREATE OR REPLACE VIEW payment_by_customer AS 
 SELECT 
 	customer.customer_id,
 	concat(customer.first_name, ' ',customer.last_name) nombre,
