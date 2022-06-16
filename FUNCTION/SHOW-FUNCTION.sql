@@ -1,0 +1,2 @@
+SHOW FUNCTION STATUS
+WHERE Db = "sakila";
