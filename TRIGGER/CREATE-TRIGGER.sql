@@ -16,7 +16,7 @@ FOR EACH ROW # POR CADA REGISTRO O FILA SE EJECUTARA ESTE TRIGGER
 -- limitar el ingreso a 9.99 
 BEGIN 
 	if new.amount >= 10 
-		then SET new.amount = 9.99;
+		then SET new.amount  = 9.99;
 	end if;
 END $$
 DELIMITER ;
